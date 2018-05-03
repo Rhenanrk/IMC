@@ -1,3 +1,10 @@
+var wage = document.getElementById("pesoid");
+wage.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
+        calcIMC(e);
+    }
+});
+
 function calcIMC() {
     var imc = 0;
 
@@ -29,6 +36,4 @@ function calcIMC() {
         document.getElementById("txtrect").innerHTML=imc;
         document.getElementById("msg").innerHTML = "Obesidade: acima de 35";
     }
-
-
 }
