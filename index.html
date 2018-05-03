@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calcule seu IMC</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="principal">
+
+        <div class="box">
+            <h1 class="cabecalho">Calcule o seu IMC</h1>
+
+            <section>
+                <p class="titulos">Sua altura</p>
+                <div class="input-group mb-3">
+                    <input type="text" id="alturaid" class="form-control" placeholder="1.65">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">Metros</span>
+                    </div>
+                </div>
+
+                <p class="titulos">Seu peso</p>
+                <div class="input-group mb-3">
+                    <input type="text" id="pesoid" class="form-control" placeholder="65">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">Quilos</span>
+                    </div>
+                </div>
+
+                <div class="botao">
+                    <button type="button" class="btn btn-primary btn-lg btn-block" onclick=calcIMC()>Calcular IMC</button>
+                </div>
+
+
+
+                <div class="alert alert-dark" role="alert">
+                    <h4 id="alerta" class="alert-heading"> </h4>
+                    <p>Seu IMC é:</p>
+                    <text id="txtrect"> </text>
+                    <hr>
+                    <text id="msg"> </text>
+                    <hr>
+                    <a href="https://www.tuasaude.com/segredos-da-alimentacao-saudavel/" target="_top">Link para dicas de alimentação saudável</a>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/meu-arquivo.js"></script>
+
+</body>
+
+</html>

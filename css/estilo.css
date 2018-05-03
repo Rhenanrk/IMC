@@ -1,0 +1,41 @@
+.principal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(233, 150, 122, 0.74);
+}
+
+.box {
+  width: 430px;
+  height: 593px;
+  padding: 20px;
+  background: rgba(148, 144, 144, 0.726);
+}
+
+.cabecalho {
+margin-bottom: 20px;
+font-size: 30px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-family: helvetica;
+}
+
+.link {
+
+  background-color: transparent; 
+  text-decoration: none;
+  text-align: center;
+}
+
+.titulos {
+  font-family: helvetica;
+}
+
+.botao {
+  margin-bottom: 20px;
+}
